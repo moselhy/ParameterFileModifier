@@ -25,7 +25,7 @@
 (ResultImagePixelType "float")<br />
 (CompressResultImage "false")<br />
 
-### And you want to change the value of a certain tag (e.g. Size) to a certain value (e.g. 256 256 64)
+### And you want to change the value of a certain tag (e.g. `Size`) to a certain value (e.g. `256 256 64`)
 
 ### You would run this:
 
