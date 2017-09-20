@@ -1,6 +1,6 @@
 # Modifies Registration Parameter Files
 
-If you have many files like this:
+### If you have many files like this:
 
 (Transform "WeightedCombinationTransform")<br />
 (NumberOfParameters 2)<br />
@@ -25,17 +25,16 @@ If you have many files like this:
 (ResultImagePixelType "float")<br />
 (CompressResultImage "false")<br />
 
-And you want to change the value of a certain tag (e.g. Size) to a certain value (e.g. 256 256 64)
+### And you want to change the value of a certain tag (e.g. Size) to a certain value (e.g. 256 256 64)
 
-You would run this:
+### You would run this:
 
 `python modTag.py DIRECTORY Size 256 256 64`
 
-Where `DIRECTORY` is the relative path to the directory containing all the parameter files
+###### Where `DIRECTORY` is the relative path to the directory containing all the parameter files
 
 ## A few things worth mentioning:
 <br />
-
 1) The directory should not have any binary files, try to only keep the parameter files there, or it may take a long time to go through it, depending on your RAM size
 2) You can escape the quotation marks ("") by using the escape character followed by a quotation (\\")
 For example, To change FixedInternalImagePixelType from "float" to "int", you would type:
