@@ -34,8 +34,11 @@
 ###### Where `DIRECTORY` is the relative path to the directory containing all the parameter files
 
 ## A few things worth mentioning:
-<br />
+
 1) The directory should not have any binary files, try to only keep the parameter files there, or it may take a long time to go through it, depending on your RAM size
+
 2) You can escape the quotation marks ("") by using the escape character followed by a quotation (\\")
+
 For example, To change FixedInternalImagePixelType from "float" to "int", you would type:
+
 `python modTag.py DIRECTORY FixedInternalImagePixelType \"int\"`
